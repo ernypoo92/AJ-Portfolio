@@ -10,10 +10,13 @@ module.exports = {
     },
     colors: {
       'yellow': '#FFCD17',
-      'white-dark': '#F5F5F5',
+      'white-dark': '#F7FFF7',
       'grey-light': '#9B9B9B',
       'black-blue': '#0D1B2A',
       'black-rich': '#071013',
+      'prof': '#343434',
+      'comf': '#2F3061',
+      'expl': '#6CA6C1',
     },
     extend: {
       colors: {
