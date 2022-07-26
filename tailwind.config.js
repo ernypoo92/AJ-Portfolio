@@ -9,14 +9,14 @@ module.exports = {
       'Tech': ['Kanit', 'sans-serif']
     },
     colors: {
-      'yellow': '#FFCD17',
+      'yellow': '#FFB400',
       'white-dark': '#F7FFF7',
       'grey-light': '#9B9B9B',
       'black-blue': '#0D1B2A',
       'black-rich': '#071013',
-      'prof': '#343434',
-      'comf': '#2F3061',
-      'expl': '#6CA6C1',
+      'prof': '#8A1D27',
+      'comf': '#E8051F',
+      'expl': '#FF7919',
     },
     extend: {
       colors: {

@@ -1,6 +1,6 @@
 const About = () => {
     return ( 
-        <section id="about" className="w-full relative px-6 sm:px-16 transition-colors duration-300 bg-white-dark dark:bg-black-blue">
+        <section id="about" className="w-full relative px-6 sm:px-16 transition-colors duration-300 dark:bg-black-blue">
             <div className="max-w-[64rem] mx-auto py-12 sm:py-16 flex justify-center fade-in-init animate-fade-in">
                 <div className="flex flex-col gap-4 md:w-4/5 lg:w-3/5 text-dark-grey text-left">
                     <div className="flex flex-col">

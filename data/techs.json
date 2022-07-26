@@ -1,5 +1,6 @@
 
 {"techs": [
+    "I set this up a potential solution for a compiling error but it did not work",
     {"name": "HTML5", "src": "<siHtml5 />", "category": "proficient", "id": 1},
     {"name": "CSS3", "src": "<SiCss3 />", "category": "proficient", "id": 2},
     {"name": "JavaScript", "src": "<SiJavascript />", "category": "proficient", "id": 3},
