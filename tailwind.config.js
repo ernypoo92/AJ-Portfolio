@@ -10,8 +10,8 @@ module.exports = {
     },
     colors: {
       'yellow': '#FFB400',
-      'white-dark': '#F7FFF7',
-      'grey-light': '#9B9B9B',
+      'white-dark': '#FFFFF7',
+      'grey-light': '#f5f5f5',
       'black-blue': '#0D1B2A',
       'black-rich': '#071013',
       'prof': '#8A1D27',

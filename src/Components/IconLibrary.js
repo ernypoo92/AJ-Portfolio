@@ -7,45 +7,45 @@ export default function IconLibrary (props) {
         const getIcon = () => {
         switch (name) {
         case 'HTML5':
-            return <SiHtml5 />;
+            return <SiHtml5 size={'100%'}/>;
         case 'CSS3':
-            return <SiCss3 />;
+            return <SiCss3 size={'100%'}/>;
         case 'JavaScript':
-            return <SiJavascript />;
+            return <SiJavascript size={'100%'}/>;
         case 'Node.JS':
-            return <SiNodedotjs />;
+            return <SiNodedotjs size={'100%'}/>;
         case 'Bulma':
-            return <SiBulma />;
+            return <SiBulma size={'100%'}/>;
         case 'MongoDB':
-            return <SiMongodb />;
+            return <SiMongodb size={'100%'}/>;
         case 'Git':
-            return <SiGit />;
+            return <SiGit size={'100%'}/>;
         case 'React':
-            return <SiReact />;
+            return <SiReact size={'100%'}/>;
         case 'Heroku':
-            return <SiHeroku />;
+            return <SiHeroku size={'100%'}/>;
         case 'Apollo':
-            return <SiApollographql />;
+            return <SiApollographql size={'100%'}/>;
         case 'GraphQL':
-            return <SiGraphql />;
+            return <SiGraphql size={'100%'}/>;
         case 'MySQL':
-            return <SiMysql />;
+            return <SiMysql size={'100%'}/>;
         case 'Bootstrap':
-            return <SiBootstrap />;
+            return <SiBootstrap size={'100%'}/>;
         case 'GreenSock':
-            return <SiGreensock />;
+            return <SiGreensock size={'100%'}/>;
         case 'Jquery':
-            return <SiJquery />;
+            return <SiJquery size={'100%'}/>;
         case 'Flutter':
-            return <SiFlutter />;
+            return <SiFlutter size={'100%'}/>;
         case 'Socket.io':
-            return <SiSocketdotio />;
+            return <SiSocketdotio size={'100%'}/>;
         case 'TypeScript':
-            return <SiTypescript />;
+            return <SiTypescript size={'100%'}/>;
         case 'Tailwind':
-            return <SiTailwindcss />;
+            return <SiTailwindcss size={'100%'}/>;
         case 'REST api':
-            return <AiFillApi />;
+            return <AiFillApi size={'100%'}/>;
         default:
             break;
         }

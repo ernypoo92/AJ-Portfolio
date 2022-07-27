@@ -10,7 +10,7 @@ const TechBadges = (props) => {
                 
                 return (
                 <li className={`${category === "proficient" ? "bg-prof text-white-dark":""}${category === "comfortable" ? "bg-comf text-white-dark":""}${category === "exploring" ? "bg-expl ":""} flex justify-center items-center rounded-full p-2 drop-shadow-lg`} key={id}>
-                    <div className='px-2'>
+                    <div className='px-2 h-7'>
                         <IconLibrary name={name}/>
                     </div>
                     <div>
