@@ -18,12 +18,12 @@ const Tech = () => {
         {name: "GraphQL", category: "comfortable", id: 11},
         {name: "MySQL", category: "comfortable", id: 12},
         {name: "Bootstrap", category: "comfortable", id: 13},
-        {name: "GreenSock", category: "exploring", id: 14},
-        {name: "Jquery", category: "comfortable", id: 15},
-        {name: "Flutter", category: "exploring", id: 16},
         {name: "Socket.io", category: "exploring", id: 17},
-        {name: "TypeScript", category: "exploring", id: 18},
-        {name: "Tailwind", category: "exploring", id: 19}
+        {name: "Tailwind", category: "exploring", id: 19},
+        {name: "Jquery", category: "comfortable", id: 15},
+        {name: "TypeScript", category: "exploring", id: 16},
+        {name: "Flutter", category: "exploring", id: 18},
+        {name: "GreenSock", category: "exploring", id: 14},
     ]);
     
 
