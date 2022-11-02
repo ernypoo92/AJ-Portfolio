@@ -1,5 +1,6 @@
 import {SiHtml5, SiCss3, SiJavascript, SiNodedotjs, SiBulma, SiMongodb, SiGit, SiReact, SiHeroku, SiApollographql, SiGraphql, SiMysql, SiBootstrap, SiGreensock, SiJquery, SiFlutter, SiSocketdotio, SiTypescript, SiTailwindcss} from "react-icons/si";
 import {AiFillApi} from "react-icons/ai";
+import {TiSocialLinkedinCircular} from "react-icons/ti"
 
 export default function IconLibrary (props) {
     const name = props.name
@@ -46,6 +47,8 @@ export default function IconLibrary (props) {
             return <SiTailwindcss size={'100%'}/>;
         case 'REST api':
             return <AiFillApi size={'100%'}/>;
+        case 'LinkedIn':
+            return <TiSocialLinkedinCircular size={'100%'}/>;
         default:
             break;
         }

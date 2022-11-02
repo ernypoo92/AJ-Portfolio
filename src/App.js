@@ -3,6 +3,7 @@ import Name from './Components/Name'
 import About from './Components/About'
 import Tech from './Components/Tech'
 import Projects from './Components/Projects'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Tech />
       <Projects />
+      <Footer />
     </div>
   );
 }
