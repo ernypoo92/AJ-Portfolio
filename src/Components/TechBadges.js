@@ -1,11 +1,11 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import IconLibrary from './IconLibrary';
 
 const TechBadges = (props) => {
     const techs = props.techs;
     
     return (
-        <ul className="techbadges grid w-full grid-cols-4 gap-4 p-5">
+        <ul className="techbadges grid w-full grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 sm:gap-4 sm:p-5">
             {techs.map(({name, category, id}) => {
                 
                 return (

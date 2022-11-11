@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import TechBadges from './TechBadges';
-import {SiHtml5, SiCss3, SiJavascript, SiNodedotjs, SiBulma, SiMongodb, SiGit, SiReact, SiHeroku, SiApollographql, SiGraphql, SiMysql, SiBootstrap, SiGreensock, SiJquery, SiFlutter, SiSocketdotio, SiTypescript, SiTailwindcss} from "react-icons/si";
 
 const Tech = () => {
     
@@ -22,14 +21,13 @@ const Tech = () => {
         {name: "Tailwind", category: "exploring", id: 19},
         {name: "Jquery", category: "comfortable", id: 15},
         {name: "TypeScript", category: "exploring", id: 16},
-        {name: "Flutter", category: "exploring", id: 18},
-        {name: "GreenSock", category: "exploring", id: 14},
+        {name: "Flutter", category: "exploring", id: 14},
     ]);
     
 
     return (
         <div className="tech p-10  bg-yellow">
-            <div className='max-w-[64rem] mx-auto px-10'>
+            <div className='max-w-[64rem] mx-auto sm:px-10'>
                 <div className="proficient ">
                     <h4 className='font-semibold'>I am proficient in</h4>
                     <TechBadges techs={techs.filter(techs => techs.category === 'proficient')} />

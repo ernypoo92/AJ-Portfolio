@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Project from "./Project"
+import ProjectCard from "./ProjectCard"
 
 const Projects = () => {
     
@@ -24,7 +25,8 @@ const Projects = () => {
     
     return ( 
         <article className="projects bg-yellow flex justify-center" >
-            <Project proj={proj}/>
+            <Project proj={proj} />
+            <ProjectCard proj={proj} />
         </article>
     )
 }
