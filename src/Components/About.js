@@ -7,7 +7,7 @@ const About = () => {
                         <h3 className="font-Tech font-light text-3xl">About</h3>
                         <h2 className="font-bold tracking-wider text-4xl antialiased">I am a bright-eyed full stack developer</h2>
                     </div>
-                    <p className="text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, natus asperiores! Ut libero laboriosam porro temporibus rerum sapiente dolorum aliquid tenetur quibusdam aperiam? Laborum sunt rerum cupiditate atque minima hic!</p>
+                    <p className="text-lg">I am a math teacher transitioning to the world of web design. I am a passionate problem-solver who thrives off of a team environment. I am a believer that a group is more than the sum of their parts and I am excited to see what we can create together.</p>
                 </div>
             </div>
         </section>
